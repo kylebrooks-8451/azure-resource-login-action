@@ -21,7 +21,7 @@ runs:
   using: "composite"
   steps:
     - name: Logining in into Azure
-      uses: kylebrooks-8451/login@690ecc3220bdc23f538da45ccb6daa71751008ac
+      uses: kylebrooks-8451/login@c78e9fbedb227b90782174bbb99d11a65b6eca39
       with:
         creds: ${{ inputs.creds }}
         enable-AzPSSession: true
